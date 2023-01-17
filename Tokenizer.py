@@ -194,6 +194,7 @@ class TwitchTokenizer:
         :return: a tokenized list of strings; concatenating this list returns\
         the original string if `preserve_case=False`
         """
+        # print(text)
         text = URL_RE.sub("URL", text)
 
         # Shorten problematic sequences of characters

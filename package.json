@@ -1,0 +1,24 @@
+{
+  "name": "emote-controlled",
+  "version": "1.0.0",
+  "description": "In this repository you find the code and data for the paper [\"Emote-Controlled: Obtaining Implicit Viewer Feedback through Emote based Sentiment Analysis on Comments of Popular Twitch.tv Channels\"](https://dl.acm.org/doi/abs/10.1145/3365523) by Konstantin Kobs et al., published in \"Transactions on Social Computing\":",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/konstantinkobs/emote-controlled.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/konstantinkobs/emote-controlled/issues"
+  },
+  "homepage": "https://github.com/konstantinkobs/emote-controlled#readme",
+  "dependencies": {
+    "papaparse": "^5.3.2",
+    "regex-translator": "file:../regex-translator"
+  }
+}
